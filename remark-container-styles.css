@@ -20,7 +20,8 @@
 /* apply variables to admonitions */
 
 .admonition {
-    width: max-content
+    width: max-content;
+    max-width: 100%;
 }
 
 .admonition time::after {
