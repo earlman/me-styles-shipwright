@@ -37,3 +37,16 @@ html
 
     &.sm
         height: 4px
+
+table
+    font-size: var(--d-sm)
+    border-collapse: collapse
+    margin: 0 auto var(--space-sm)
+
+    th
+        @include space-squish(18px)
+        text-align: start
+
+    td
+        border: 1px solid var(--color-a)
+        @include space-squish(18px)
